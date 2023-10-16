@@ -1,0 +1,167 @@
+*{
+    list-style: none;
+    text-decoration: none;
+    font-family: "Open Sans", "Roboto", sans-serif;
+
+}
+
+
+body{
+    color: #212121;
+
+    
+    font-family: Roboto;
+    
+}
+
+.header{
+    display: flex;
+    align-items: center;
+    
+    padding-left: 215px ;
+}
+.hero{
+    display: flex;
+    column-gap: 60px;
+   
+}
+.navegation{
+    display: flex;
+    justify-content: space-between;
+}
+.contacts{
+    display: flex;
+    column-gap: 10px;
+    color: #757575;
+font-family:ro ;
+font-size: 14px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+letter-spacing: 0.28px;
+gap: 50px;
+
+
+}
+
+.titulo__principal{
+    color: #FFF;
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+font-family: 'Roboto', sans-serif;
+    font-size: 44px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 60px; /* 136.364% */
+    letter-spacing: 2.64px;
+    text-transform: uppercase;
+}
+
+.webstudio{
+    color: #2196F3;
+text-align: right;
+font-family: Raleway;
+font-size: 26px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+letter-spacing: 0.78px;
+
+
+}
+
+.menu{
+    
+color: #212121;
+font-family: Roboto;
+font-size: 14px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+letter-spacing: 0.28px;
+
+}
+.menu:hover{
+    color: #2196F3;
+}
+
+.buttons{
+    display: flex;
+    gap: 8px;
+    justify-content: center;
+    
+}
+.button{
+    border: none;
+    width: 145px;
+height: 38px;
+border-radius: 4px;
+background: #F5F4FA;
+cursor: pointer;
+
+}
+.button:hover{
+    background-color: #2196F3;
+    color: #FFF; 
+}
+
+.unidad1{
+ background-color: #2F303A;
+ height: 600px;
+ width: 1600px;
+}
+.description-absolut {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 32px;
+    gap: 10px;
+    color: white;
+
+    position: absolute;
+    width: 261px;
+    height: 50px;
+    left: 666px;
+    top: 430px;
+
+    background: #2196f3;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0, 15);
+    border-radius: 4px;
+}
+
+.descripciones{
+    display: flex;
+    gap: 30px;
+    
+    color: #757575;
+}
+
+.primeras__imagenes{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+.titulo{
+    text-align: center;
+    color: #212121;
+text-align: center;
+font-family: Roboto;
+font-size: 36px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+letter-spacing: 1.08px;
+}
+
+.colaboradores{
+    display: flex;
+    gap: 37px;
+    justify-content: center;
+    align-items: center;
+}
+.pie-de-pagina{
+    background-color: #757575;
+}
+
